@@ -32,7 +32,7 @@ const App = () => {
             setSelectedPage={setSelectedPage}
           />
         )}
-        <Landing setSelectedPage={selectedPage} />
+        <Landing setSelectedPage={setSelectedPage} />
       </div>
     </div>
   );
