@@ -12,6 +12,9 @@ module.exports = {
         "deep-blue": "#010026",
         "dark-grey": "#757575",
         "opaque-black": "rgba(0,0,0,0.35)",
+        brown: "#3e2723",
+        "dark-pink": "rgb(189, 171, 175)",
+        "darker-pink": "rgb(207, 192, 195)",
       },
       backgroundImage: (theme) => ({
         "gradient-rainbow":
@@ -22,6 +25,9 @@ module.exports = {
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
         opensans: ["Open Sans", "sans-serif"],
+      },
+      content: {
+        brush: "url('./assets/brush.png')",
       },
     },
     screens: {
