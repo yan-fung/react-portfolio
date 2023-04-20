@@ -4,6 +4,9 @@ import Landing from "./Landing";
 import DotGroup from "./DotGroup";
 import LineGradient from "./LineGradient";
 import MySkills from "./MySkills";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Footer from "./Footer";
 import useMediaQuery from "../hooks/useMediaQuery";
 
 const App = () => {
@@ -11,7 +14,7 @@ const App = () => {
   const isAboveMediumSrceens = useMediaQuery("(min-width: 1060px)");
 
   return (
-    <div className="app bg-deep-blue">
+    <div>
       <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
       <div className="w-5-6 mx-auto md:h-full">
         {isAboveMediumSrceens && (
@@ -26,6 +29,15 @@ const App = () => {
       <div className="w-5-6 mx-auto md:h-full">
         <MySkills />
       </div>
+      <linearGradient />
+      <div className="w-5-6 mx-auto">
+        <Projects />
+      </div>
+      <linearGradient />
+      <div className="w-5-6 mx-auto">
+        <Contact />
+      </div>
+      <Footer />
     </div>
   );
 };
