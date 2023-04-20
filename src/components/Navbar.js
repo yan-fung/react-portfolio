@@ -18,25 +18,33 @@ const Navbar = ({ setSelectedPage }) => {
         {isAboveSmallScreens ? (
           <div className="flex justify-between gap-16 font-opensans text-xl font-semibold">
             <AnchorLink onClick={() => setSelectedPage("home")} href="#home">
-              Home
+              <div className=" hover:text-white opacity-80 transition duration-500">
+                Home
+              </div>
             </AnchorLink>
             <AnchorLink
               onClick={() => setSelectedPage("skills")}
               href="#skills"
             >
-              Skills
+              <div className=" hover:text-white opacity-80 transition duration-500">
+                Skills
+              </div>
             </AnchorLink>
             <AnchorLink
               onClick={() => setSelectedPage("projects")}
               href="#projects"
             >
-              Projects
+              <div className=" hover:text-white opacity-80 transition duration-500">
+                Projects
+              </div>
             </AnchorLink>
             <AnchorLink
               onClick={() => setSelectedPage("contact")}
               href="#contact"
             >
-              Contact
+              <div className=" hover:text-white opacity-80 transition duration-500">
+                Contact
+              </div>
             </AnchorLink>
           </div>
         ) : (
@@ -63,27 +71,35 @@ const Navbar = ({ setSelectedPage }) => {
             </div>
 
             {/* MENU ITEMS */}
-            <div className="flex flex-col gap-10 ml-[33%] text-2x1 text-brown">
+            <div className="flex flex-col gap-10 ml-[33%] text-brown text-xl font-semibold">
               <AnchorLink onClick={() => setSelectedPage("home")} href="#home">
-                Home
+                <div className="  hover:text-black opacity-80 transition duration-500">
+                  Home
+                </div>
               </AnchorLink>
               <AnchorLink
                 onClick={() => setSelectedPage("skills")}
                 href="#skills"
               >
-                Skills
+                <div className="  hover:text-black opacity-80 transition duration-500">
+                  Skills
+                </div>
               </AnchorLink>
               <AnchorLink
                 onClick={() => setSelectedPage("projects")}
                 href="#projects"
               >
-                Projects
+                <div className=" hover:text-black opacity-80 transition duration-500">
+                  Projects
+                </div>
               </AnchorLink>
               <AnchorLink
                 onClick={() => setSelectedPage("contact")}
                 href="#contact"
               >
-                Contact
+                <div className=" hover:text-black opacity-80 transition duration-500">
+                  Contact
+                </div>
               </AnchorLink>
             </div>
           </div>
