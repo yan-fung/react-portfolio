@@ -8,9 +8,9 @@ const Navbar = ({ setSelectedPage }) => {
   const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
 
   return (
-    <nav className="bg-darker-pink z-40 w-full fixed top-0 py-6">
+    <nav className="bg-darker-pink z-40 w-full fixed top-0 py-5">
       <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className="font-playfair text-3xl font-bold text-transparent bg-clip-text   bg-gradient-to-r from-rose-100 to-teal-100">
+        <h4 className="font-playfair text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-100 to-teal-100">
           YAN FUNG
         </h4>
 
