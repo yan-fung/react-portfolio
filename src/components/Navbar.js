@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
+import closeIcon from "../assets/close-icon.svg";
+import menuIcon from "../assets/menu-icon.svg";
 
 const Navbar = ({ setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
@@ -53,7 +55,7 @@ const Navbar = ({ setSelectedPage }) => {
             onClick={() => setIsMenuToggled(!isMenuToggled)}
             type="button"
           >
-            <img alt="menu-icon" src="../assets/menu-icon.svg" />
+            <img alt="menu-icon" src={menuIcon} />
           </button>
         )}
 
@@ -66,7 +68,7 @@ const Navbar = ({ setSelectedPage }) => {
                 type="button"
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
-                <img alt="close-icon" src="../assets/close-icon.svg" />
+                <img alt="close-icon" src={closeIcon} />
               </button>
             </div>
 
