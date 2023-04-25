@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div>
       <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
-      <div className="w-5-6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-full">
         {isAboveMediumSrceens && (
           <DotGroup
             selectedPage={selectedPage}
@@ -26,15 +26,15 @@ const App = () => {
         <Landing setSelectedPage={setSelectedPage} />
       </div>
       <LineGradient />
-      <div className="w-5-6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-full">
         <MySkills />
       </div>
-      <linearGradient />
-      <div className="w-5-6 mx-auto">
+      <LineGradient />
+      <div className="w-5/6 mx-auto">
         <Projects />
       </div>
-      <linearGradient />
-      <div className="w-5-6 mx-auto">
+      <LineGradient />
+      <div className="w-5/6 mx-auto">
         <Contact />
       </div>
       <Footer />
