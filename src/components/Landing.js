@@ -10,10 +10,10 @@ const Landing = ({ setSelectedPage }) => {
   return (
     <section
       id="home"
-      className="md:flex md:justify-between md:items-center md:H-full gap-5 py-10"
+      className="md:flex md:justify-between md:items-center md:h-full gap-5 py-16"
     >
       {/* IMAGE SECTION */}
-      <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32">
+      <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-5 md:mt-22">
         {isAboveMediumScreens ? (
           <div
             className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10 before:rounded-t-[400px]
@@ -35,7 +35,7 @@ const Landing = ({ setSelectedPage }) => {
       </div>
 
       {/* MAIN SECTION */}
-      <div className="z-30 basis-2/5 mt-12 md:mt-32 md:mx-20">
+      <div className="z-30 basis-3/5 mt-12 md:mt-32 md:mx-10">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
@@ -47,26 +47,53 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl text-black font-playfair z-10 text-center md:text-start md:pl-12">
-            Yan{" "}
+          <p className="md:text-6xl text-4xl text-black font-playfair z-10 text-center md:text-start md:pl-12">
+            Hello, I am{" "}
             <span
               className="xs:relative xs:text-black xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[120px] before:z-[-1]"
             >
-              Fung
+              Yan
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-2xl text-center md:text-start md:pl-12 xs:px-5">
-            This is my portfolio. Software Engineering Bootcamp student with a
-            strong passion for technology. Pursuing a career in Software
-            Development after switching from the legal industry.
+          <p className="mt-10 mb-7 md:text-lg text-sm text-center md:text-start pt-5 md:pl-12 xs:px-5">
+            I am a developer who recently graduated from a software engineering
+            bootcamp with{" "}
+            <a
+              className=""
+              href="https://www.commandshift.co/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="text-deep-blue">Command Shift</span>
+            </a>{" "}
+            in March 2023 after switching from a career in the legal industry. I
+            have a keen interest in science and technology and am excited to
+            begin this new chapter in my career.
           </p>
+          <div>
+            <p className="md:text-lg text-sm text-center md:text-start md:pl-12 xs:px-5">
+              I enjoy learning and building things as it brings me a lot of joy
+              and satisfaction. Learning to code is fascinating as it challenges
+              me to think creatively and tackle problems from different angles.
+              Soft skills such as patience and perseverance are also very
+              important and these are areas that I always want to keep improving
+              for my personal and professional growth.
+            </p>
+          </div>
+          <div className="pt-10">
+            <p className="md:text-lg text-sm text-center md:text-start md:pl-12 xs:px-5">
+              In my free time, I love to paint and create artwork. I also enjoy
+              reading books and teaching myself to play the piano. (Just for fun
+              :D)
+            </p>
+          </div>
         </motion.div>
 
         {/* CALL TO ACTIONS */}
         <motion.div
-          className="flex mt-5 justify-center md:justify-start"
+          className="flex mt-10 justify-center md:justify-start"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
