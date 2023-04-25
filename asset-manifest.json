@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ad0fa475.css",
-    "main.js": "/react-portfolio/static/js/main.7dcbf854.js",
+    "main.css": "/react-portfolio/static/css/main.53c9da27.css",
+    "main.js": "/react-portfolio/static/js/main.29b01220.js",
+    "static/media/nasa-app.png": "/react-portfolio/static/media/nasa-app.5904d2092f1695dcedc9.png",
+    "static/media/profile-pic.png": "/react-portfolio/static/media/profile-pic.3abe3d4ffe276eb99304.png",
+    "static/media/ship-app.png": "/react-portfolio/static/media/ship-app.544c559b6e9f4f2f61fe.png",
+    "static/media/skills-image.png": "/react-portfolio/static/media/skills-image.51e40da64df180a7669a.png",
+    "static/media/contact-image.jpeg": "/react-portfolio/static/media/contact-image.37fcb61b49d6aa5c40d3.jpeg",
+    "static/media/hashtify.png": "/react-portfolio/static/media/hashtify.f6cbd85ce86afd280140.png",
+    "static/media/weather-app.png": "/react-portfolio/static/media/weather-app.93d016a3c7248361bb38.png",
+    "static/media/virtual-pet.png": "/react-portfolio/static/media/virtual-pet.f547270500e8975db35d.png",
     "static/media/brush.png": "/react-portfolio/static/media/brush.9d054dbd39baa01a725f.png",
+    "static/media/surreal-estate.png": "/react-portfolio/static/media/surreal-estate.72adc77118ac1b786a26.png",
     "index.html": "/react-portfolio/index.html",
-    "main.ad0fa475.css.map": "/react-portfolio/static/css/main.ad0fa475.css.map",
-    "main.7dcbf854.js.map": "/react-portfolio/static/js/main.7dcbf854.js.map"
+    "main.53c9da27.css.map": "/react-portfolio/static/css/main.53c9da27.css.map",
+    "main.29b01220.js.map": "/react-portfolio/static/js/main.29b01220.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad0fa475.css",
-    "static/js/main.7dcbf854.js"
+    "static/css/main.53c9da27.css",
+    "static/js/main.29b01220.js"
   ]
 }
