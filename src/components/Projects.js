@@ -1,6 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import LineGradient from "./LineGradient";
+import hashtifyPic from "../assets/hashtify.png";
+import propertyPic from "../assets/surreal-estate.png";
+import weatherAppPic from "../assets/weather-app.png";
+import nasaAppPic from "../assets/nasa-app.png";
+import virtualPetPic from "../assets/virtual-pet.png";
+import curiseShipPic from "../assets/ship-app.png";
 
 const Projects = () => {
   return (
@@ -49,11 +55,7 @@ const Projects = () => {
         <div className="justify-center text-center items-center p-5 mb-5 rounded-md bg-white max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
           <p>Hashtify</p>
           <p className="pb-5">Hashtag Generator</p>
-          <img
-            className="md:h-45"
-            src="./assets/hashtify.png"
-            alt="hastify-app"
-          />
+          <img className="md:h-45" src={hashtifyPic} alt="hastify-app" />
           <div className="flex justify-center text-center items-center gap-5 pt-5">
             <a
               className="hover:opacity-50 transition duration-500"
@@ -76,11 +78,7 @@ const Projects = () => {
         <div className="justify-center text-center items-center p-5 mb-5 rounded-md bg-white max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
           <p>Surreal Estate</p>
           <p className="pb-5">Property Search Engine</p>
-          <img
-            className="md:h-50"
-            src="./assets/surreal-estate.png"
-            alt="property-app"
-          />
+          <img className="md:h-50" src={propertyPic} alt="property-app" />
           <div className="flex justify-center text-center items-center gap-5 pt-5">
             <a
               className="hover:opacity-50 transition duration-500"
@@ -103,7 +101,7 @@ const Projects = () => {
         <div className="justify-center text-center items-center p-5 mb-5 rounded-md bg-white max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
           <p>Weather Lens</p>
           <p className="pb-5">Weather Forecasting App</p>
-          <img src="./assets/weather-app.png" alt="weather-app" />
+          <img src={weatherAppPic} alt="weather-app" />
           <div className="flex justify-center text-center items-center gap-5 pt-5">
             <a
               className="hover:opacity-50 transition duration-500"
@@ -127,7 +125,7 @@ const Projects = () => {
         <div className="justify-center text-center items-center p-5 mb-5 rounded-md bg-white max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
           <p>NASA Image Search</p>
           <p className="pb-5">Mock Technical Test</p>
-          <img className="md:h-45" src="./assets/nasa-app.png" alt="nasa-app" />
+          <img className="md:h-45" src={nasaAppPic} alt="nasa-app" />
           <div className="flex justify-center text-center items-center gap-5 pt-5">
             <a
               className="hover:opacity-50 transition duration-500"
@@ -150,11 +148,7 @@ const Projects = () => {
         <div className="justify-center text-center items-center p-5 mb-5 rounded-md bg-white max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
           <p>My Virtual Pet Peipei </p>
           <p className="pb-5">Virtual Pet App</p>
-          <img
-            className="md:h-45"
-            src="./assets/virtual-pet.png"
-            alt="virtual-pet-app"
-          />
+          <img className="md:h-45" src={virtualPetPic} alt="virtual-pet-app" />
           <div className="flex justify-center text-center items-center gap-5 pt-5">
             <a
               className="hover:opacity-50 transition duration-500"
@@ -179,7 +173,7 @@ const Projects = () => {
           <p className="pb-5">Cruise Ship GUI App</p>
           <img
             className="md:h-45 pt-2"
-            src="./assets/ship-app.png"
+            src={curiseShipPic}
             alt="cruise-ship-app"
           />
           <div className="flex justify-center text-center items-center gap-5 pt-5">

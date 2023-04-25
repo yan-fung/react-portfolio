@@ -1,4 +1,6 @@
 import React from "react";
+import linkedinPic from "../assets/linkedin.png";
+import gitHubPic from "../assets/github-icon.png";
 
 const SocialMediaIcons = () => {
   return (
@@ -9,7 +11,7 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="linkedin-link" src="../assets/linkedin.png" />
+        <img alt="linkedin-link" src={linkedinPic} />
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
@@ -17,7 +19,7 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="linkedin-link" src="../assets/github-icon.png" />
+        <img alt="linkedin-link" src={gitHubPic} />
       </a>
     </div>
   );

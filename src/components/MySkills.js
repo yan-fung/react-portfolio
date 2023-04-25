@@ -1,7 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
 import LineGradient from "./LineGradient";
+import skillPic from "../assets/skills-image.png";
 import useMediaQuery from "../hooks/useMediaQuery";
+import dockerIcon from "../assets/docker-icon.png";
+import reactIcon from "../assets/react-logo.png";
+import jsIcon from "../assets/js-icon.png";
+import htmlIcon from "../assets/html-icon.png";
+import cssIcon from "../assets/css-icon.png";
+import nodeIcon from "../assets/node-icon.png";
+import expressIcon from "../assets/express-icon.png";
+import postmanIcon from "../assets/postman-icon.png";
+import postgresIcon from "../assets/postgresql-icon.png";
+import gitIcon from "../assets/git.png";
+import vscodeIcon from "../assets/vscode-icon.png";
+import gitHubIcon from "../assets/github-icon.png";
 
 const MySkills = () => {
   const isAboveMediumSrceens = useMediaQuery("(min-width: 1060px)");
@@ -47,11 +60,7 @@ const MySkills = () => {
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
         before:w-full before:h-full before:border-2 before:border-light-white before:z-[-1]"
             >
-              <img
-                className="z-10"
-                alt="skills"
-                src="../assets/skills-image.png"
-              />
+              <img className="z-10" alt="skills" src={skillPic} />
             </div>
           ) : (
             ""
@@ -84,28 +93,16 @@ const MySkills = () => {
           </div>
           <div className="flex justify-center">
             <div className="p-3">
-              <img
-                className="pt-5"
-                src="./assets/react-logo.png"
-                alt="react-logo"
-              />
+              <img className="pt-5" src={reactIcon} alt="react-logo" />
             </div>
             <div className="p-3">
-              <img className="pt-5" src="./assets/js-icon.png" alt="js-logo" />
+              <img className="pt-5" src={jsIcon} alt="js-logo" />
             </div>
             <div className="p-3">
-              <img
-                className="pt-5"
-                src="./assets/html-icon.png"
-                alt="html-logo"
-              />
+              <img className="pt-5" src={htmlIcon} alt="html-logo" />
             </div>
             <div className="p-3">
-              <img
-                className="pt-5"
-                src="./assets/css-icon.png"
-                alt="css-logo"
-              />
+              <img className="pt-5" src={cssIcon} alt="css-logo" />
             </div>
           </div>
         </motion.div>
@@ -132,32 +129,16 @@ const MySkills = () => {
           </div>
           <div className="flex justify-center">
             <div className="p-3">
-              <img
-                className="pt-5"
-                src="./assets/node-icon.png"
-                alt="react-logo"
-              />
+              <img className="pt-5" src={nodeIcon} alt="node-logo" />
             </div>
             <div className="p-3 w-40 pt-6">
-              <img
-                className="pt-5"
-                src="./assets/express-icon.png"
-                alt="js-logo"
-              />
+              <img className="pt-5" src={expressIcon} alt="express-logo" />
             </div>
             <div className="p-3 w-20">
-              <img
-                className="pt-5"
-                src="./assets/postman-icon.png"
-                alt="html-logo"
-              />
+              <img className="pt-5" src={postmanIcon} alt="postman-logo" />
             </div>
             <div className="p-3">
-              <img
-                className="pt-5"
-                src="./assets/postgresql-icon.png"
-                alt="css-logo"
-              />
+              <img className="pt-5" src={postgresIcon} alt="postgres-logo" />
             </div>
           </div>
         </motion.div>
@@ -182,28 +163,16 @@ const MySkills = () => {
           </div>
           <div className="flex justify-center">
             <div className="pr-3 pt-2">
-              <img src="./assets/git.png" alt="git-icon" />
+              <img src={gitIcon} alt="git-icon" />
             </div>
             <div className="p-3">
-              <img
-                className="pt-5"
-                src="./assets/docker-icon.png"
-                alt="docker-logo"
-              />
+              <img className="pt-5" src={dockerIcon} alt="docker-logo" />
             </div>
             <div className="p-3">
-              <img
-                className="pt-5"
-                src="./assets/vscode-icon.png"
-                alt="vscode-logo"
-              />
+              <img className="pt-5" src={vscodeIcon} alt="vscode-logo" />
             </div>
             <div className="p-3">
-              <img
-                className="pt-5"
-                src="./assets/github.png"
-                alt="github-logo"
-              />
+              <img className="pt-7" src={gitHubIcon} alt="github-logo" />
             </div>
           </div>
         </motion.div>
