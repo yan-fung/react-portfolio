@@ -2,7 +2,7 @@ import React from "react";
 
 const SocialMediaIcons = () => {
   return (
-    <div className="flex justify-center md:justify-start my-10 gap-7 md:pl-12">
+    <div className="flex justify-center md:justify-start my-5 gap-7 md:pl-12">
       <a
         className="hover:opacity-50 transition duration-500"
         href="https://www.linkedin.com/in/yan-fung-4082401a4/"
