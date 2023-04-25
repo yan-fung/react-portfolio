@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.53c9da27.css",
-    "main.js": "/react-portfolio/static/js/main.29b01220.js",
+    "main.js": "/react-portfolio/static/js/main.64ad8462.js",
     "static/media/nasa-app.png": "/react-portfolio/static/media/nasa-app.5904d2092f1695dcedc9.png",
     "static/media/profile-pic.png": "/react-portfolio/static/media/profile-pic.3abe3d4ffe276eb99304.png",
     "static/media/ship-app.png": "/react-portfolio/static/media/ship-app.544c559b6e9f4f2f61fe.png",
@@ -13,11 +13,13 @@
     "static/media/brush.png": "/react-portfolio/static/media/brush.9d054dbd39baa01a725f.png",
     "static/media/surreal-estate.png": "/react-portfolio/static/media/surreal-estate.72adc77118ac1b786a26.png",
     "index.html": "/react-portfolio/index.html",
+    "static/media/close-icon.svg": "/react-portfolio/static/media/close-icon.36a1df96f812b5f4c12f817f90a904c6.svg",
+    "static/media/menu-icon.svg": "/react-portfolio/static/media/menu-icon.9cbfc3090b4b0aec575128df8ede3633.svg",
     "main.53c9da27.css.map": "/react-portfolio/static/css/main.53c9da27.css.map",
-    "main.29b01220.js.map": "/react-portfolio/static/js/main.29b01220.js.map"
+    "main.64ad8462.js.map": "/react-portfolio/static/js/main.64ad8462.js.map"
   },
   "entrypoints": [
     "static/css/main.53c9da27.css",
-    "static/js/main.29b01220.js"
+    "static/js/main.64ad8462.js"
   ]
 }
